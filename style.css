@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: solid black 1px;
+    align-items: center;
+}
+.navbar img{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.navbar__s1__title{
+    color: #A435F0;
+}
+
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar__s2 input{
+   border: none;  
+   width: 100%;
+    align-items: center;
+   font-size: 16px;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+    flex-wrap: wrap;
+   
+}
+
+.sales img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories__dev,.categories__des,.categories__buis,.categories__pe,.categories__it,.categories__mark{
+    border-radius: 20px;
+    border: solid #A435F0 10px;
+    background-color: #A435F0;
+    color: white;
+    margin: 0.25%;
+}
+
+.sales{
+    text-align: center;
+    width: 100%;
+}
+
+.recommended__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.recommended h1{
+    padding-left: 10px;
+}
+.recommended p{
+    padding-left: 10px;
+}
+.course-card{
+    width: 350px;
+}
+
+.course-card img{
+    width: 100%;
+    height: 50%;
+}
+
+.topics{
+    padding: 10px;
+}
+
+.topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p{
+    padding: 10px;
+    border: solid gray 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.poular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.footer__one{
+    display: flex;
+    gap: 10px ;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one p{
+    margin: 20px;
+}
+.popular h1,.popular p{
+    padding-left: 10px;
+}
