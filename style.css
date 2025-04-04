@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: solid black 1px;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar img{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.navbar__s1__title{
+    color: #A435F0;
+}
+
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar__s2 input{
+   border: none;  
+   width: 100%;
+    align-items: center;
+   font-size: 16px;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.myle{
+    position: relative;
+    cursor: pointer;
+}
+.myle__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    top: 31px;
+    padding: 5px;
+    display: none;
+}
+.myle:hover .myle__popup{
+    display: block;
+}
+
+.categories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+    flex-wrap: wrap;
+   
+}
+.sales{
+    
+    width: 100%;
+    position: relative;
+}
+.sales img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.sales__card{
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(7, 7, 7, 0.1);
+    height: 10rem;      
+    padding: 1%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute ;
+    top: 15%;
+    left: 10%;
+   
+}
+.sales__buttons a{
+    text-decoration: none;
+}
+.sales__buttons{
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.sales__buttons__1 {
+    background-color: #6b3eff;
+    color: white;
+    border: 3px solid #6b3eff;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.sales__buttons__1:hover {
+    background-color: white;
+    color: #6b3eff ;
+    border: 3px solid #6b3eff;
+}
+
+.sales__buttons__2 {
+    border: 3px solid #6b3eff;
+    color: #6b3eff;
+    background: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.sales__buttons__2:hover{
+    background-color: #6b3eff;
+    color: white;
+}
+@media (max-width: 768px) {
+    .sales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sales__card {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .sales__buttons {
+        justify-content: center;
+    }
+}
+.categories__dev,.categories__des,.categories__buis,.categories__pe,.categories__it,.categories__mark{
+    border-radius: 20px;
+    border: solid #A435F0 10px;
+    background-color: #A435F0;
+    color: white;
+    margin: 0.25%;
+}
+
+
+
+.recommended__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.recommended h1{
+    padding-left: 10px;
+}
+.recommended p{
+    padding-left: 10px;
+}
+.course-card{
+    width: 350px;
+}
+
+.course-card img{
+    width: 100%;
+    height: 50%;
+}
+
+.topics{
+    padding: 10px;
+}
+
+.topics__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.topics__container p{
+    padding: 10px;
+    border: solid gray 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.poular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.footer__one{
+    display: flex;
+    gap: 10px ;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one p{
+    margin: 20px;
+}
+.popular h1,.popular p{
+    padding-left: 10px;
+}
