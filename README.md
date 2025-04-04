@@ -7,8 +7,7 @@ A responsive Udemy-inspired course marketplace clone built using **HTML**, **CSS
 
 ## 📸 Screenshots
 
-![Navbar & Banner](./Images/udem.jpg)
-![Course Cards](./Images/c1.jpg)
+
 
 ---
 
