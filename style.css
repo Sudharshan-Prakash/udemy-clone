@@ -78,6 +78,8 @@ body{
     flex-wrap: wrap;
    
 }
+
+
 .sales{
     
     width: 100%;
@@ -103,7 +105,21 @@ body{
     position: absolute ;
     top: 15%;
     left: 10%;
+    opacity: 0;
+    animation-name: zoom;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
    
+}
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 .sales__buttons a{
     text-decoration: none;
@@ -154,7 +170,9 @@ body{
         left: auto;
         margin-top: 20px;
         width: 90%;
+        
     }
+    
 
     .sales__buttons {
         display: flex;
@@ -164,15 +182,23 @@ body{
         top: 65%;
     }
 }
-.categories__dev,.categories__des,.categories__buis,.categories__pe,.categories__it,.categories__mark{
-    border-radius: 20px;
-    border: solid #A435F0 10px;
+.categories p{
+    border-radius: 30px;
+   padding: 10px;
     background-color: #A435F0;
     color: white;
-    margin: 0.25%;
+    /* margin: 0.25%; */
+    cursor: pointer;
+    border: solid #A435F0 1px;
 }
 
-
+.categories p:hover{
+    transition: 1.5s;
+    background-color: transparent;
+    color: black;
+    border: solid #000000 1px;
+    
+}
 
 .recommended__container{
     display: flex;
