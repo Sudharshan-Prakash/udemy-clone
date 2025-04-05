@@ -5,8 +5,6 @@ A responsive Udemy-inspired course marketplace clone built using **HTML**, **CSS
 
 ---
 
-## 📸 Screenshots
-
 
 
 ---
