@@ -53,6 +53,9 @@ body{
     gap: 10px;
     align-items: center;
 }
+.navbar__s4{
+    display: none;
+}
 .myle{
     position: relative;
     cursor: pointer;
@@ -157,31 +160,7 @@ body{
     background-color: #6b3eff;
     color: white;
 }
-@media (max-width: 768px) {
-    .sales {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .sales__card {
-        position: relative;
-        top: auto;
-        left: auto;
-        margin-top: 20px;
-        width: 90%;
-        
-    }
-    
-
-    .sales__buttons {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        position: absolute;
-        top: 65%;
-    }
-}
 .categories p{
     border-radius: 30px;
    padding: 10px;
@@ -271,4 +250,46 @@ body{
 }
 .popular h1,.popular p{
     padding-left: 10px;
+}
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 12.5px;
+    }
+    .sales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sales__card {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin-top: 20px;
+        width: 90%;
+        
+    }
+    
+
+    .sales__buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 65%;
+    }
+    .categories p{
+        margin-top: 2px;
+    }
+    .course-card{
+        flex-basis: 40% ;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    .navbar__s4{
+        display: block;
+    }
+    .navbar__s3{
+        display: none;
+    }
 }
