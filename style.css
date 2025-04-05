@@ -157,7 +157,11 @@ body{
     }
 
     .sales__buttons {
+        display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 65%;
     }
 }
 .categories__dev,.categories__des,.categories__buis,.categories__pe,.categories__it,.categories__mark{
