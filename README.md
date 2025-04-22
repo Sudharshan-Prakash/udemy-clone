@@ -32,5 +32,5 @@ A responsive Udemy-inspired course marketplace clone built using **HTML**, **CSS
 
 ---
 
-## 📁 Folder Structure
+You can visit it here: https://sudharshan-prakash.github.io/udemy-clone/
 
